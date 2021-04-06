@@ -8,6 +8,7 @@ To run the code:
 cd CMSSW/src
 cmsenv
 git clone https://github.com/Ang-Li-95/JetAnalyzer.git
+scram b
 cd JetAnalyzer/test/
 cmsRun JetAnalyzer_cfg.py
 ```
