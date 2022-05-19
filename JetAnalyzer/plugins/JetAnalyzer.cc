@@ -48,6 +48,7 @@ JetAnalyzer::~JetAnalyzer() {
 // ------------ method called for each event  ------------
 void JetAnalyzer::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup) {
 
+  initEventStructure();
   std::cout << "Processing event: " << iEvent.id().event() << std::endl;
   evInfo->evt = iEvent.id().event();
 
