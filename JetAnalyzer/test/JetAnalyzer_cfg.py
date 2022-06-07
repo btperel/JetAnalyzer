@@ -8,7 +8,7 @@ process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
 
 process.source = cms.Source("PoolSource",
                                 fileNames = cms.untracked.vstring(
-                                  'file:/uscms/home/ali/nobackup/CMSSW_11_1_6/src/23251.0_QCD_Pt15To7000_Flat_14+QCD_Pt15To7000_Flat_14TeV_TuneCP5_2026D49_GenSimHLBeamSpotFull14+DigiFullTrigger_2026D49+RecoFullGlobal_2026D49+HARVESTFullGlobal_2026D49/step3.root'
+                                  'file:/eos/user/r/rperelma/input_root_file_from_ang.root'
                                 )
                            )
 
