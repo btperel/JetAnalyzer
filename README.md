@@ -1,19 +1,19 @@
 # JetAnalyzer
 
-This analyzer read GenJet information in CMSSW and prints the pT, eta, phi for every GenJet in each event. 
-Also it creats a root file storing the pT, eta, phi for those GenJets that can be opened without CMSSW.
+This analyzer read Gen RecoTrack information in CMSSW and prints the pT, eta, phi, t0, dz, particle ID, simpT, simeta, simphi, tMTD, and path length for every GenRecoTrack in each event. 
+Also it creats a root file storing those variables for the GenRecoTracks that can be opened without CMSSW.
 
 To run the code:
 ```shell
 cd CMSSW/src
 cmsenv
-git clone https://github.com/Ang-Li-95/JetAnalyzer.git
+git clone https://github.com/btperel/JetAnalyzer.git
 scram b
 cd JetAnalyzer/test/
-cmsRun JetAnalyzer_cfg.py
+cmsRun TrackAnalyzer_cfg.py
 ```
 
-The generated root file will be "JetTree.root" under the "test" directory (where you run the code).
+The generated root file will be "TrackTree.root" under the "test" directory (where you run the code).
 
 Before running the code, make sure this line is changed:
 
