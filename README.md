@@ -8,7 +8,7 @@ To run the code:
 ```shell
 cd CMSSW/src
 cmsenv
-git clone https://github.com/btperel/JetAnalyzer.git
+git clone https://github.com/btperel/TrackAnalyzer.git
 scram b
 cd JetAnalyzer/test/
 cmsRun TrackAnalyzer_cfg.py
