@@ -1,6 +1,6 @@
 # JetAnalyzer
 
-This analyzer reads the Gen RecoTrack information in CMSSW and prints the pT, eta, phi, t0, dz, particle ID, simpT, simeta, simphi, tMTD, and path length for every GenRecoTrack in each event. 
+This analyzer reads the GenRecoTrack information in CMSSW and prints the pT, eta, phi, t0, dz, particle ID, simpT, simeta, simphi, tMTD, and path length for every GenRecoTrack in each event. 
 Also it creats a root file storing those variables for the GenRecoTracks that can be opened without CMSSW.
 
 To run the code:
