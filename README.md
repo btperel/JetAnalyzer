@@ -1,4 +1,4 @@
-# JetAnalyzer
+# TrackAnalyzer
 
 This analyzer reads the GenRecoTrack information in CMSSW and prints the pT, eta, phi, t0, dz, particle ID, simpT, simeta, simphi, tMTD, and path length for every GenRecoTrack in each event. It also gives association information between the simulated and reconstructed tracks. 
 The timing variables have units of ns, and the path length units are cm. 
