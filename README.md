@@ -18,7 +18,7 @@ The generated root file will be "TrackTree.root" under the "test" directory (whe
 
 Before running the code, make sure this line is changed:
 
-JetAnalyzer/test/JetAnalyzer_cfg.py(https://github.com/btperel/JetAnalyzer/blob/317cd4c22a2639a6cfb54dde81c973e191513390/JetAnalyzer/test/TrackAnalyzer_cfg.py#L11)
+TrackAnalyzer/test/TrackAnalyzer_cfg.py(https://github.com/btperel/JetAnalyzer/blob/317cd4c22a2639a6cfb54dde81c973e191513390/JetAnalyzer/test/TrackAnalyzer_cfg.py#L11)
 
 This line specifies the data file the code is running on, so change it to: 
 ```shell
